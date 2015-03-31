@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>resources/TBA App Load Window.png</name>
+			<type>1</type>
+			<location>E:/Dropbox/TBA App/TBA App Load Window.png</location>
+		</link>
+	</linkedResources>
 </projectDescription>

@@ -1,10 +1,7 @@
 import java.awt.*;
-import java.io.IOException;
-import java.net.InetAddress;
-
 import javax.swing.*;
 
-public class LoginWindow extends JFrame {
+public class Initialization extends JFrame {
 	
 	/**
 	 * 
@@ -14,17 +11,7 @@ public class LoginWindow extends JFrame {
 	private JButton login;
 	private JTextField teamLogin;
 	
-	private JLabel connectionError;
-	private JLabel teamInfo;
-	
-	public LoginWindow() {
-		try(InetAddress.getByName(thebluealliance.com)){
-			
-		}
-		catch(IOException){
-			connectionError = new JLabel("No Internet Connection");
-		}
-		
+	public Initialization() {
 		setLayout(new FlowLayout());
 		
 		label = new JLabel("Please enter your Team # to proceed.");
@@ -35,8 +22,5 @@ public class LoginWindow extends JFrame {
 		
 		login = new JButton("Login");
 		add(login);
-		
-		
-		
 	}
 }
